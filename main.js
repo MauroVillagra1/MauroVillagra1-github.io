@@ -5,23 +5,7 @@
   window.onload = init;
 
   function init() {
-    alert("1");
-
-    var x = document.querySelector("#myLinks");
-
-    const y = document.querySelectorAll(".icon");
-    y.addEventListener("click", () => {
-      x = document.querySelector("#myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-        alert("hola");
-
-      } else {
-        alert("adios");
-
-        x.style.display = "block";
-      }
-    })
+    
 
 
 
